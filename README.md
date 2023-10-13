@@ -239,7 +239,7 @@ Here's a list of all things you can get:
 
 1. #### wattpad.com/chapteridxyz JSON:
 | Name                          | JSON Path                                       | Description                                               |
-|-------------------------------|-------------------------------------------------|-----------------------------------------------------------|
+|:------------------------------|:------------------------------------------------|:----------------------------------------------------------|
 | ampUrl                        | chapterdata.metadata.data.ampUrl                | redirects to the chapter                                  |
 | anonymousUser                 | chapterdata.metadata.data.anonymousUser         | except you're logged in into your wattpad account, this will be true |
 | bgCover                       | chapterdata.metadata.data.bgCover               | URL to the image file of the cover                       |
@@ -355,8 +355,8 @@ Here's a list of all things you can get:
 
 
 2. #### wattpad.com/story/storyidxyz JSON
-    | Name                                      | JSON Path                                      | Description                                               |
-|-------------------------------------------|-----------------------------------------------|-----------------------------------------------------------|
+| Name                                      | JSON Path                                     | Description                                               |
+|:------------------------------------------|:----------------------------------------------|:-----------------------------------------------------------|
 | anonymousUser                             | chapterdata.metadata.data.anonymousUser       | except you're logged in into your wattpad account, this will be true |
 | bgCover                                   | chapterdata.metadata.data.bgCover             | URL to the image file of the cover                      |
 | bottomBannerImage                        | chapterdata.metadata.data.bottomBannerImage  | URL to the image file of the banner                      |
@@ -455,8 +455,8 @@ Here's a list of all things you can get:
 
 
 3. #### wattpad.com/user/useraliasxyz JSON
-    | Name                                   | JSON Path                                      | Description                                                  |
-|----------------------------------------|-----------------------------------------------|--------------------------------------------------------------|
+| Name                                   | JSON Path                                     | Description                                                  |
+|:---------------------------------------|:----------------------------------------------|:-------------------------------------------------------------|
 | allowCrawler                           | userdata.metadata.data[0].allowCrawler        | Tells search engines like Google if they are allowed to crawl this page |
 | ambassador                             | userdata.metadata.data[0].ambassador          | True / False - Is this user part of the wattpad ambassador program? (https://www.wattpad.com/story/345106-the-ambassador-program) |
 | avatar                                 | userdata.metadata.data[0].avatar              | URL to the avatar image of this user |
