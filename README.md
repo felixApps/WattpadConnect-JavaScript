@@ -1,4 +1,4 @@
-# WattpadConnect API for JavaScript
+# WattpadConnect for JavaScript
 
 Unfortunately, the wattpad API no longer exists for programmers who are not familiar with wattpad.
 WattpadConnect is an alternative interface that can still be used to retrieve data from the wattpad platform easily & for free.
@@ -118,7 +118,7 @@ Lets take a look in the browser's console:
 You are now confronted with a huge pile of data.
 Let's see how you can extract the most important data.
 
-1. wattpad.com/chapteridxyz:
+1. #### wattpad.com/chapteridxyz:
 
 So, in this scheme the "chapteridxyz" stands for the chapter id of the story.
 
@@ -148,7 +148,7 @@ The URL can also include the story name and/or part(chapter) name, it doesn't ma
         const completed = json.metadata.data.group.completed; // true or false
         const description = json.metadata.data.group.description;
         const parts = json.metadata.data.group.parts; // returns an array, you may want to program a function that processes it
-        const nextparturl = json.
+        const nextparturl = json..metadata.data.nextPart.url; // only aviable if there's a next part
         const authorname = json.metadata.data.group.user.name;
         const authoravatar = json.metadata.data.group.user.avatar; // returns the URL to the image
         const authoralias = json.metadata.data.group.user.username;
@@ -159,7 +159,7 @@ The URL can also include the story name and/or part(chapter) name, it doesn't ma
 So yes, now you know how to save the data in variables.
 How they are further processed is entirely up to you.
 
-2. wattpad.com/story/storyidxyz
+2. #### wattpad.com/story/storyidxyz
 
 In this scheme, the "storyidxyz" stands for the story's ID.
 Example: [https://www.wattpad.com/story/9341306-news-updates](https://www.wattpad.com/story/9341306-news-updates)
@@ -184,7 +184,7 @@ Example: [https://www.wattpad.com/story/9341306-news-updates](https://www.wattpa
     }
 ```
 
-3. wattpad.com/user/useraliasxyz
+3. #### wattpad.com/user/useraliasxyz
 
 In this scheme, the "useraliasxyz" stands for the user's username.
 Example: [https://www.wattpad.com/user/Wattpad](https://www.wattpad.com/user/Wattpad)
@@ -238,8 +238,8 @@ Here's a list of all things you can get:
 
 
 1. wattpad.com/chapteridxyz:
-    | Name                          | JSON Path                                         | Description                                               |
-|-------------------------------|--------------------------------------------------|-----------------------------------------------------------|
+| Name                          | JSON Path                                       | Description                                               |
+|-------------------------------|-------------------------------------------------|-----------------------------------------------------------|
 | ampUrl                        | chapterdata.metadata.data.ampUrl                | redirects to the chapter                                  |
 | anonymousUser                 | chapterdata.metadata.data.anonymousUser         | except you're logged in into your wattpad account, this will be true |
 | bgCover                       | chapterdata.metadata.data.bgCover               | URL to the image file of the cover                       |
@@ -325,9 +325,10 @@ Here's a list of all things you can get:
 | meta                          | chapterdata.metadata.data.meta                  | even more information for sharing.                   |
 | modifyDate                    | chapterdata.metadata.data.modifyDate            | when was the part's last update? ISO 8601 standard   |
 | nextPage                      | chapterdata.metadata.data.nextPage              | if there's a next page, here's a link to it.          |
+| nextPart                      | chapterdata.metadata.data.nextPart              | only aviable if there's a next part. its an array      |
 | page                          | chapterdata.metadata.data.page                  | contains information about the page                   |
 | page.title                    | chapterdata.metadata.data.page.title            | contains the page's title (for the browser window)   |
-| pageNumber                     | chapterdata.metadata.data.pageNumber            | on which page are you at the moment                   |
+| pageNumber                    | chapterdata.metadata.data.pageNumber            | on which page are you at the moment                   |
 | pages                         | chapterdata.metadata.data.pages                 | how many pages does this part have?                  |
 | photoUrl                      | chapterdata.metadata.data.photoUrl              | God knows what that is                                |
 | rank                          | chapterdata.metadata.data.rank                  | ranking of the story in specific hashtags (I'm not 100 percent sure) |
