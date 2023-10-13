@@ -237,7 +237,7 @@ So if you want to know what data you can get, take a look at the structure of th
 Here's a list of all things you can get:
 
 
-1. wattpad.com/chapteridxyz:
+1. #### wattpad.com/chapteridxyz JSON:
 | Name                          | JSON Path                                       | Description                                               |
 |-------------------------------|-------------------------------------------------|-----------------------------------------------------------|
 | ampUrl                        | chapterdata.metadata.data.ampUrl                | redirects to the chapter                                  |
@@ -354,7 +354,7 @@ Here's a list of all things you can get:
 | wordCount                     | chapterdata.metadata.data.wordCount             | how many words?                                    |
 
 
-2. wattpad.com/story/storyidxyz
+2. #### wattpad.com/story/storyidxyz JSON
     | Name                                      | JSON Path                                      | Description                                               |
 |-------------------------------------------|-----------------------------------------------|-----------------------------------------------------------|
 | anonymousUser                             | chapterdata.metadata.data.anonymousUser       | except you're logged in into your wattpad account, this will be true |
@@ -367,7 +367,7 @@ Here's a list of all things you can get:
 | commentsAdProps                          | chapterdata.metadata.data.commentsAdProps    | again, nobody knows what that is                       |
 | createDate                                | chapterdata.metadata.data.createDate         | date and time when this story was created. ISO 8601 standard |
 | dedication                                | chapterdata.metadata.data.dedication         | I don't know what this is                             |
-| descCharLimit                            | chapterdata.metadata.data.descCharLimit      | ¯\_(ツ)_/¯                                               |
+| descCharLimit                            | chapterdata.metadata.data.descCharLimit      | idk                                               |
 | dismissibleBanner                        | chapterdata.metadata.data.dismissibleBanner  | just some stuff for the webpage                         |
 | draft                                     | chapterdata.metadata.data.draft               | is it a draft? let's hope it's not                      |
 | group                                    | chapterdata.metadata.data.group               | contains information about the story                    |
@@ -454,7 +454,7 @@ Here's a list of all things you can get:
 | videoId                                 | chapterdata.metadata.data.videoId              | I dunno what this is                               |
 
 
-3. wattpad.com/user/useraliasxyz
+3. #### wattpad.com/user/useraliasxyz JSON
     | Name                                   | JSON Path                                      | Description                                                  |
 |----------------------------------------|-----------------------------------------------|--------------------------------------------------------------|
 | allowCrawler                           | userdata.metadata.data[0].allowCrawler        | Tells search engines like Google if they are allowed to crawl this page |
