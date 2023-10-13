@@ -14,12 +14,21 @@ With this interface, you can get data from this URLs:
 
 Overview:
 
-- [WattpadConnect API for JavaScript](#WattpadConnect-API-for-JavaScript)
-  - [❗DISCLAIMER❗](#❗DISCLAIMER❗)
-  - [🤷‍♂️ How to use it?](#🤷‍♂️-How-to-use-it)
-  - [👉 Examples](#👉-Examples)
-  - [🪲 BUGS](#🪲-BUGS)
-  - [📋  What can I get?](#📋--What-can-I-get)
+- [WattpadConnect API for JavaScript](#wattpadconnect-for-javascript)
+  - [❗DISCLAIMER❗](#disclaimer)
+  - [🤷‍♂️ How to use it?](#%EF%B8%8F-how-to-use-it)
+    1. [Import it](#import-it)
+    2. [Get JSON](#get-json)
+    3. [Use JSON](#use-json)
+  - [👉 Examples](#-examples)
+    1. [scheme wattpad.com/chapteridxyz](#wattpadcomchapteridxyz)
+    2. [scheme wattpad.com/story/storyidxyz](#wattpadcomstorystoryidxyz)
+    3. [scheme wattpad.com/user/useraliasxyz](#wattpadcomuseruseraliasxyz)
+  - [🪲 BUGS](#-bugs)
+  - [📋  What can I get?](#--what-can-i-get)
+    1. [scheme wattpad.com/chapteridxyz](#wattpadcomchapteridxyz-json)
+    2. [scheme wattpad.com/story/storyidxyz](#wattpadcomstorystoryidxyz-json)
+    3. [scheme wattpad.com/user/useraliasxyz](#wattpadcomuseruseraliasxyz-json)
 
 ## ❗DISCLAIMER❗
 Use of this software is at your own risk.
