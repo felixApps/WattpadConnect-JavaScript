@@ -157,7 +157,7 @@ The URL can also include the story name and/or part(chapter) name, it doesn't ma
         const completed = json.metadata.data.group.completed; // true or false
         const description = json.metadata.data.group.description;
         const parts = json.metadata.data.group.parts; // returns an array, you may want to program a function that processes it
-        const nextparturl = json..metadata.data.nextPart.url; // only aviable if there's a next part
+        const nextparturl = json.metadata.data.nextPart.url; // only aviable if there's a next part
         const authorname = json.metadata.data.group.user.name;
         const authoravatar = json.metadata.data.group.user.avatar; // returns the URL to the image
         const authoralias = json.metadata.data.group.user.username;
