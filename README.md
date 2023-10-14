@@ -183,7 +183,7 @@ Example: [https://www.wattpad.com/story/9341306-news-updates](https://www.wattpa
 
         // save the most important data in variables:
         const storytitle = json.metadata.data.group.title;
-        const description: json.metadata.data.group.description;
+        const description = json.metadata.data.group.description;
         const cover = json.metadata.data.group.cover; // returns the URL to the image
         const completed = json.metadata.data.group.completed; // return true or false
         const parts = json.metadata.data.group.parts; // returns an array, you may want to program a function that processes it
