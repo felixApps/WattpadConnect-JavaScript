@@ -12,9 +12,11 @@ With this interface, you can get data from this URLs:
 
 **Notice: This software is not endorsed or affiliated with Wattpad.**
 
+🐍 Python version here: [WattpadConnect for Python](https://github.com/felixApps/WattpadConnect-Python)
+
 Overview:
 
-- [WattpadConnect API for JavaScript](#wattpadconnect-for-javascript)
+- [WattpadConnect for JavaScript](#wattpadconnect-for-javascript)
   - [❗DISCLAIMER❗](#disclaimer)
   - [🤷‍♂️ How to use it?](#%EF%B8%8F-how-to-use-it)
     1. [Import it](#import-it)
